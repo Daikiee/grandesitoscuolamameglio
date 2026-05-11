@@ -37,3 +37,11 @@ body{
 .container .btn:hover {
   background-color: rgba(0, 0, 0, 0.733);
 }
+
+#joker1{
+
+  width: 30%;
+  border: none;
+  border-radius: 10px;
+  float: left;
+}
