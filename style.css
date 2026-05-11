@@ -1,0 +1,39 @@
+body{
+    background-color: rgb(114, 97, 97);
+}
+
+
+.container {
+  position: relative;
+  width: 30%;
+  
+}
+
+
+.container img {
+  width: 100%;
+  height: auto;
+  
+}
+
+
+.container .btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555555ab;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-decoration: none;
+  
+}
+
+.container .btn:hover {
+  background-color: rgba(0, 0, 0, 0.733);
+}
