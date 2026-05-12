@@ -1,3 +1,34 @@
+@font-face {
+  font-family: Persona1;
+  src:url(fonts/Persona5MenuFontPrototype-Regular.ttf);
+}
+
+@font-face {
+  font-family: Persona2;
+  src:url(fonts/Optima\ nova\ LT\ Black.ttf);
+}
+
+#font1{
+  font-family:Persona1;
+  color: rgb(0, 0, 0);
+  width:auto;
+  text-align: center;
+  border:2px solid black;
+  letter-spacing: 5;
+  
+  background-color: rgb(255, 30, 0);
+
+  
+  
+
+
+}
+
+#font2{
+  font-family: Persona2 ;
+}
+
+
 body{
     background-color: rgb(114, 97, 97);
 }
@@ -10,19 +41,29 @@ body{
 }
 
 
-.container img {
+.container .img {
   width: 100%;
   height: auto;
+  border:none;
+  border-radius:15px;
+  transition: all 0.7s;
+  
+}
+.container .img:hover {
+  width: 100%;
+  height: auto;
+  transform:scale(1.10)
+  
   
 }
 
 
 .container .btn {
+  
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
+  transform:translate(-50%, -50%);
   background-color: #555555ab;
   color: rgb(255, 255, 255);
   font-size: 16px;
@@ -31,17 +72,40 @@ body{
   cursor: pointer;
   border-radius: 5px;
   text-decoration: none;
+  transition: all 0.7s;
   
 }
 
-.container .btn:hover {
+.btn:hover {
+  transform:translate(-50%, -50%) scale(1.2);
+  
+ 
+
   background-color: rgba(0, 0, 0, 0.733);
+  
+
+  
 }
 
-#joker1{
 
+
+.pg1{
+  
+  
   width: 30%;
   border: none;
   border-radius: 10px;
-  float: left;
+  
+  
+  
+  
 }
+
+li{
+  line-height: 1.3;  
+}
+
+
+
+
+
